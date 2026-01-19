@@ -15,18 +15,18 @@ Esta prueba evaluará tus conocimientos en:
 
 ---
 
-## 🎨 Diseño (Figma) — MUY IMPORTANTE
+## 🎨 Diseño (Figma)
 Tendrás un diseño en Figma que debes replicar **1:1**:
 
 **Figma:** https://www.figma.com/design/gy4waC251AzgB5WtYPcgLe/Frontend-Prueba
 
-### Requisitos de UI (Pixel Perfect)
+### Requisitos de UI
 - La UI debe verse **igual** al Figma:
-  - Tipografías (tamaño, peso, line-height si aplica)
-  - Espaciados (padding/margins)
-  - Bordes/radius, sombras (si existen)
+  - Tipografías
+  - Espaciados
+  - Bordes/radius, sombras
   - Colores y jerarquía visual
-  - Estados (loading/empty/error) tal como se muestran en el diseño
+  - Estados (loading/empty/error)
 - Se valorará que uses **tokens/constantes** (colors, spacing, typography) para mantener consistencia.
 - Respeta safe areas y comportamiento nativo (teclado, scroll, etc.).
 - No buscamos “algo parecido”: buscamos **pixel perfect**.
