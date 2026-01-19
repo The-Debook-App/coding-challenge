@@ -15,6 +15,26 @@ Esta prueba evaluará tus conocimientos en:
 
 ---
 
+## 🎨 Diseño (Figma) — MUY IMPORTANTE
+Tendrás un diseño en Figma que debes replicar **1:1**:
+
+**Figma:** https://www.figma.com/design/gy4waC251AzgB5WtYPcgLe/Frontend-Prueba
+
+### Requisitos de UI (Pixel Perfect)
+- La UI debe verse **igual** al Figma:
+  - Tipografías (tamaño, peso, line-height si aplica)
+  - Espaciados (padding/margins)
+  - Bordes/radius, sombras (si existen)
+  - Colores y jerarquía visual
+  - Estados (loading/empty/error) tal como se muestran en el diseño
+- Se valorará que uses **tokens/constantes** (colors, spacing, typography) para mantener consistencia.
+- Respeta safe areas y comportamiento nativo (teclado, scroll, etc.).
+- No buscamos “algo parecido”: buscamos **pixel perfect**.
+
+> Tip: añade screenshots comparables (mismo device) para demostrar fidelidad al Figma.
+
+---
+
 ## 🛠️ Stack Técnico Requerido
 
 - ⚛️ **React Native** con **Expo**
@@ -27,19 +47,22 @@ Esta prueba evaluará tus conocimientos en:
 
 ## 📋 Funcionalidades Requeridas
 
-### **1. Pantalla de Búsqueda** 🔍
-
-**Requisitos:**
+### 1) Pantalla de Búsqueda 🔍
+**Requisitos funcionales**
 - Input de búsqueda de libros
 - Lista de resultados mostrando:
-  - Título del libro
+  - Título
   - Autor(es)
   - Año de publicación
-- Al hacer tap en un libro → navegar a pantalla de detalle
-- Estados visuales:
-  - **Loading**: Mostrar `ActivityIndicator` mientras carga
-  - **Empty**: Mensaje "No se encontraron libros" cuando no hay resultados
-  - **Error**: Mensaje de error si falla la petición
+- Tap en un libro → navega a detalle
+- Estados:
+  - Loading (ActivityIndicator o el componente que indique Figma)
+  - Empty (“No se encontraron libros” o el texto del Figma)
+  - Error (mensaje de error)
+
+**Requisitos de diseño**
+- Debe ser **igual** a Figma: layout, tipografías, colores, espaciados, estilos del item, etc.
+- La lista debe respetar paddings, separadores y alturas del diseño.
 
 **API a usar:**
 ```
